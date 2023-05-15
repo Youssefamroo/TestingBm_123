@@ -1,7 +1,8 @@
 """Main module."""
-from common import calcuator
+from TestingBm_123 import common
+mycal = common.calcuator()
 def plus(x,y):
-    return calcuator.add(x,y)
+    return mycal.add(x,y)
 
 def minus(x,y):
-    return calcuator.minus(x,y)
+    return mycal.minus(x,y)
